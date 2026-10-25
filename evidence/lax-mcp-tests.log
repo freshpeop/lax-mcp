@@ -1,0 +1,23 @@
+
+> @freshpeop/lax-mcp@0.1.0 test
+> tsx --test test/*.test.ts
+
+✔ A1 five described tools and valid input schemas (12.248459ms)
+✔ A2 all tool routes, request bodies and raw registry results (6.04375ms)
+✔ A3 400 error is a result and next call survives (1.566417ms)
+✔ A3 404 error is a result and next call survives (1.297292ms)
+✔ A3 500 error is a result and next call survives (1.239459ms)
+✔ A3 0 error is a result and next call survives (0.964417ms)
+✔ A4 invalid input never reaches the registry (1.543125ms)
+✔ A5 contacts, payout and headers are not logged (1.804542ms)
+✔ A6 stdio bin completes SDK handshake and lists tools (197.382ms)
+✔ A6 HTTP transport roundtrip with injected registry (36.895333ms)
+✔ A7 README documents client config and all tools (3.309917ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 582.239875

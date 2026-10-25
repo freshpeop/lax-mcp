@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-25T13:44:29.474Z",
+  "read_only": true,
+  "checks": [
+    {
+      "name": "LAX live GET /jobs",
+      "ok": true,
+      "score": null
+    },
+    {
+      "name": "AIAX https://lax.kognai.ai",
+      "ok": true,
+      "score": 100
+    },
+    {
+      "name": "AIAX https://www.kognai.ai",
+      "ok": true,
+      "score": 100
+    },
+    {
+      "name": "MCP live read-only registry calls",
+      "ok": true,
+      "score": null
+    }
+  ]
+}
