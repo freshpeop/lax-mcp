@@ -2,6 +2,8 @@
 
 Node 20+, TypeScript, MCP SDK 1.x. No read credentials are required.
 
+Package: `@donkim3/lax-mcp`. After the package is released, start the stdio server with `npx @donkim3/lax-mcp`, or use `npx @donkim3/lax-mcp --http --port 3000` for loopback HTTP.
+
 ```sh
 npm install
 npm run build
@@ -31,4 +33,4 @@ The last example is synthetic, not a real submission. Submitting work transmits 
 
 `createLaxMcpServer({baseUrl?, fetch?})` returns an unconnected SDK McpServer. Results preserve the registry JSON as text. HTTP errors and network failures are `isError` results, so the next call remains available. Invalid tool inputs are rejected before fetch.
 
-`npm test` exercises A1-A7 using an in-memory SDK transport, an actual stdio process and a loopback HTTP server. Registry calls use mocks. Publishing to npm is a separate release step; this local candidate has not been published. Package metadata is private until release authorization and namespace availability are verified.
+`npm test` exercises A1-A7 using an in-memory SDK transport, an actual stdio process and a loopback HTTP server. Registry calls use mocks. Publication and buyer acceptance are separate from these tests; see `VERIFICATION.md` for the recorded checks.

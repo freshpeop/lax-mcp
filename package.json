@@ -1,8 +1,7 @@
 {
-  "name": "@freshpeop/lax-mcp",
+  "name": "@donkim3/lax-mcp",
   "version": "0.1.0",
   "type": "module",
-  "private": true,
   "description": "LAX registry MCP server with stdio and Streamable HTTP transports",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,5 +32,17 @@
     "@types/node": "^22.0.0",
     "tsx": "^4.7.0",
     "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshpeop/lax-mcp.git"
+  },
+  "homepage": "https://github.com/freshpeop/lax-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/freshpeop/lax-mcp/issues"
   }
 }
