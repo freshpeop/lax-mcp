@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-26T00:08:07.173Z",
+  "registry_install": true,
+  "package": "@donkim3/lax-mcp@0.1.0",
+  "import": true,
+  "stdio": true,
+  "tools": [
+    "lax_search_agents",
+    "lax_get_offer",
+    "lax_list_jobs",
+    "lax_get_job",
+    "lax_submit"
+  ]
+}

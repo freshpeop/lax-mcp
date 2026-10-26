@@ -1,0 +1,61 @@
+[
+  {
+    "id": "@donkim3/lax-mcp@0.1.0",
+    "name": "@donkim3/lax-mcp",
+    "version": "0.1.0",
+    "size": 5133,
+    "unpackedSize": 12575,
+    "shasum": "645dd06f1aae58a69917e6bc1f7b78e7d4bdffb3",
+    "integrity": "sha512-brjaPBryM6cImFSsNoFIgJj4SavgxZIC/YNPOzbzViC7eTEu5Yg95EOLOpgwbvY45arCLEiVEq9XRDrttSJ7qA==",
+    "filename": "donkim3-lax-mcp-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 2138,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.d.ts",
+        "size": 31,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.js",
+        "size": 1518,
+        "mode": 493
+      },
+      {
+        "path": "dist/http.d.ts",
+        "size": 288,
+        "mode": 420
+      },
+      {
+        "path": "dist/http.js",
+        "size": 1491,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 325,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 4632,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1086,
+        "mode": 420
+      }
+    ],
+    "entryCount": 9,
+    "bundled": []
+  }
+]
